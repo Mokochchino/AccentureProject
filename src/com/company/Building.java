@@ -13,4 +13,15 @@ public class Building {
     public void AddProducts(int count) {
         storage.AddProducts(count);
     }
+
+    /*
+    //Можно сделать такой обобщённый класс
+    public void MoveProducts(Building from, Building to, int count){
+        //Взять товары
+        //from.Take(count)
+
+        //Добавить товары
+        //to.AddProducts(count);
+    }
+     */
 }
